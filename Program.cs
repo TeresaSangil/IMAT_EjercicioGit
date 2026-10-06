@@ -4,7 +4,7 @@ namespace IMAT_GitTest
 {
     internal class Program
     {
-        public int Add(int x, int y)
+        public static int Add(int x, int y)
         {  return x + y; }
         static void Main(string[] args)
         {
