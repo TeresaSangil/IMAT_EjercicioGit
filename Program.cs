@@ -1,10 +1,17 @@
-﻿namespace IMAT_GitTest
+﻿using System.ComponentModel;
+
+namespace IMAT_GitTest
 {
     internal class Program
     {
+        public int Add(int x, int y)
+        {  return x + y; }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int x = 2;
+            int y = 8;
+            int suma = Add(x, y);
+            Console.WriteLine($"Numero resultante {suma}");
         }
     }
 }
